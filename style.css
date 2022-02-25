@@ -1,0 +1,297 @@
+/* ====================  font url =================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;500;800&family=Outfit&family=Playfair+Display:wght@400;500&family=Poppins:wght@400;500;600&family=Raleway:wght@500;600&family=Roboto:wght@400;500&family=Satisfy&family=The+Nautigal:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: rgb(138, 68, 61);
+}
+
+main {
+    background-color: rgba(243, 208, 204, 0.781)
+}
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Satisfy', cursive;
+font-family: 'The Nautigal', cursive; */
+
+
+nav ul li a {
+    /* font-family: 'Outfit', sans-serif; */
+    font-weight: 700;
+    color: white;
+    margin-right: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#menu {
+    background-color: rgb(236, 157, 10);
+    border-radius: 2px;
+}
+
+/* main section  */
+/* hero section  */
+.hero {
+    background-image: url(images/background/back-1.jpeg);
+    background-repeat: none;
+    background-position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.heading {
+    font-size: 4rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-shadow: 3px 6px rgb(168, 184, 189);
+}
+
+.heading-text {
+    font-family: 'The Nautigal', cursive;
+    font-size: 8rem;
+    letter-spacing: 15px;
+    color: rgb(202, 172, 135);
+}
+
+.fa.fa-chevron-down {
+    font-size: 4rem;
+    padding: 10px;
+    border: 2px solid rgb(202, 172, 135);
+    color: rgb(202, 172, 135);
+    position: absolute;
+    top: 60%;
+    animation: up-down 1.5s ease-in 2s infinite alternate-reverse;
+
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+
+/* story section  */
+
+.food-btn {
+    background-color: none;
+    border: 4px solid saddlebrown;
+}
+
+.float-box {
+    background-color: saddlebrown;
+    width: 40px;
+    height: 8px;
+    margin-bottom: 1rem;
+}
+
+#story {
+    padding: 4rem 0;
+}
+
+.fa.fa-coffee,
+.fa.fa-cutlery {
+    font-size: 6rem;
+    color: rgb(180, 101, 64);
+}
+
+.fa.fa-user-circle {
+    font-size: 4rem;
+}
+
+.fast-text-fast {
+    background-color: rgb(236, 226, 226);
+    padding: 0.3rem 2rem 3rem 2rem;
+}
+
+.bbq-text-fast {
+    background-color: rgb(236, 226, 226);
+    padding: 0.3rem 2rem 3rem 2rem;
+}
+
+.fast-text {
+    border: 8px solid saddlebrown;
+    padding: 1rem;
+}
+
+.fast-food {
+    background-image: url(images/background/burger.jfif);
+    position: relative;
+    padding: 5rem 0;
+}
+
+.fast-food-detail::before {
+    content: "";
+    background-color: saddlebrown;
+    width: 40px;
+    height: 8px;
+    position: absolute;
+    top: 390px;
+    left: 220px;
+
+}
+
+@media (min-width:576px) {
+    .fast-food-detail::before {
+        top: 390px;
+        left: 340px;
+
+    }
+}
+
+.bbq
+/* bbq section */
+
+.bbq {
+    background-image: url(images/background/pasta.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+
+/* chinese section  */
+
+.chinese {
+    background-image: url(images/background/juice.jpg);
+    background-size: cover;
+}
+
+/* karahi section  */
+.karahi {
+    background-image: url(images/background/salad.jfif);
+    background-size: cover;
+}
+
+/* gallery section  */
+.gallery {
+    margin: 6rem 0;
+}
+
+.gallery-img img {
+    width: 300px;
+    height: 350px;
+    border: 4px solid saddlebrown;
+    transition: all 0.8s;
+}
+
+.gallery-img img:hover {
+    transform: scale(1.35);
+    position: relative;
+}
+
+.user {
+    background-color: saddlebrown;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* .review-text::after {
+    content: "lkasjfdlja";
+    background-color: saddlebrown;
+    width: 40px;
+    height: 8px;
+    position: absolute;
+    top: 390px;
+    left: 220px;
+} */
+hr {
+    border: 4px solid rgb(19, 9, 2);
+    text-align: center;
+    width: 50px;
+    margin: auto;
+}
+
+/* footer section  */
+.footer {
+    color: white;
+    background-color: rgb(51, 24, 11);
+}
+
+.socials-section {
+    position: relative;
+}
+
+.socials {
+    position: fixed;
+    bottom: 0;
+}
+
+.socials>a {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+@media (min-width : 768px) {
+    .fast-text-fast {
+        width: 550px;
+        margin-left: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .fast-food::after {
+        content: "";
+        background-color: rgba(243, 208, 204, 0.514);
+        width: 450px;
+        height: 803px;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 0;
+
+    }
+
+    .bbq:after {
+        left: 0;
+    }
+
+    .bbq-text-fast {
+        width: 550px;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .fast-food-detail::before {
+        top: 310px;
+        left: 240px;
+    }
+}
