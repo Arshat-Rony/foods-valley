@@ -84,3 +84,7 @@ function handleBtn() {
 window.onscroll = function () {
     handleBtn()
 }
+
+fetch(`https://world.openfoodfacts.org/api/v0/product/`)
+    .then(res => res.json())
+    .then(data => console.log(data))

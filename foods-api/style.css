@@ -1,4 +1,21 @@
-.card:hover:before {
+
+.food-hero{
+    background-image: url(../images/menu/mccain-appetizers.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 50vh;
+}
+#hero-heading{
+    color:rgb(248, 247, 247);
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+#food-main{
+    background-color: rgba(188, 196, 204, 0.637);
+}
+
+.food-card:hover:before {
     content: "";
     background-color: rgba(0, 0, 0, 0.849);
     width: 100%;
@@ -7,11 +24,14 @@
     top: 0;
 }
 
-.card:hover #btn-details {
+.food-card:hover #btn-details {
     display: block;
     position: absolute;
     top: 145px;
     left: 90px;
+}
+.food-card img{
+    height: 250px;
 }
 
 #btn-details {
@@ -19,7 +39,7 @@
     transition: all 0.5s;
 }
 
-.card {
+.food-card {
     position: relative;
     transition: all 0.5s;
 }
@@ -27,5 +47,10 @@
 .float {
     width: 600px;
     height: 300px;
-
+}
+#input{
+    height: 50px;
+}
+#footer{
+   background-color: rgb(39, 39, 39); 
 }
